@@ -1,0 +1,84 @@
+body{
+	background: url(bg.jpg);
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
+}
+
+a:link{
+	color: #F33;
+	text-decoration: none;	
+}
+
+a:visited{
+	color: #F30;
+	text-decoration: none;	
+}
+
+a:hover{
+	color: #900;
+}
+
+#wrapper{
+	max-width: 800px;
+	margin: 0 auto 0 auto;	
+}
+
+#wrapper h1{
+	margin: 0;
+	padding: 0 0 5px 0;
+	color: #FFF;
+	text-shadow: 2px 2px 2px #F00;	
+}
+
+#wrapper p{
+	margin: 0 0 20px 0;
+	border: 1px solid #FC3;
+	background: #FFC;
+	padding: 2px;
+	border-radius: 3px;	
+}
+
+#wrapper .statbox{
+	background: #FFF;
+	min-width: 360px;
+	padding: 10px;
+	float: left;
+	border-radius: 10px;	
+	box-shadow: 2px 2px 30px #333;
+	margin: 5px 20px 20px 0;
+}
+
+#wrapper #bodybox{
+	background: #FFF;
+	border-radius: 10px;
+	padding: 15px;	
+}
+
+#wrapper #bodybox h1{
+	color: #999;	
+	text-shadow: none;
+}
+
+.statbox form{
+	width: 200px;
+	float: left;
+}
+
+.statbox form label{
+	display: block;	
+}
+
+.statbox ul{
+	margin: 0;
+	padding: 0 0 0 20px;	
+	list-style: none;
+}
+
+.statbox ul li{
+	padding: 2px 0 0 190px;	
+	font-size: .8em;
+}
+
+.statbox ul li span{
+	color: #F30;
+	font-weight: bold;	
+}

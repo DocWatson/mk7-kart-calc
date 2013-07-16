@@ -1,0 +1,251 @@
+
+
+racers = {
+	light : {
+		speed : 3,
+		acceleration : 4,
+		weight : 2.25,
+		handling : 3,
+		offroad : 4
+	},
+	midlight : {
+		speed : 3.25,
+		acceleration : 3.5,
+		weight : 2.75,
+		handling : 3,
+		offroad : 3.75
+	},
+	mid : {
+		speed : 3.5,
+		acceleration : 3,
+		weight : 3.25,
+		handling : 2.75,
+		offroad : 3.75
+	},
+	midheavy : {
+		speed : 3.75,
+		acceleration : 2.5,
+		weight : 3.75,
+		handling : 2.5,
+		offroad : 3.75
+	},
+	heavy : {
+		speed : 4,
+		acceleration : 2,
+		weight : 4.25,
+		handling : 2.5,
+		offroad : 3.5
+	},
+};
+
+kartbody = {
+	standard : {
+		speed : 0,
+		acceleration : 0,
+		weight : 0,
+		handling : 0,
+		offroad : 0
+	},
+	bdasher: {
+		speed : 0.5,
+		acceleration : -0.5,
+		weight : 0,
+		handling : 0.25,
+		offroad : -0.25
+	},
+	barrel : {
+		speed : 0.25,
+		acceleration : 0,
+		weight : 0.25,
+		handling : -0.5,
+		offroad : 0
+	},
+	seven : {
+		speed : 0.5,
+		acceleration : -0.5,
+		weight : 0.25,
+		handling : -0.25,
+		offroad : 0
+	},
+	bolt : {
+		speed : 0.25,
+		acceleration : -0.5,
+		weight : 0.25,
+		handling : -0.25,
+		offroad : 0.25
+	},
+	bumble : {
+		speed : 0,
+		acceleration : 0.5,
+		weight : -0.25,
+		handling : -0.5,
+		offroad : 0.25
+	},
+	cactx : {
+		speed : -0.25,
+		acceleration : -0.25,
+		weight : 0,
+		handling : 0.25,
+		offroad : 0.25
+	},
+	cloud : {
+		speed : -0.5,
+		acceleration : 0.25,
+		weight : -0.25,
+		handling : 0.5,
+		offroad : 0
+	},
+	egg : {
+		speed : -0.25,
+		acceleration : 0.5,
+		weight : -0.25,
+		handling : 0,
+		offroad : 0
+	},
+	gherkin : {
+		speed : 0.5,
+		acceleration : -0.25,
+		weight : 0,
+		handling : -0.25,
+		offroad : 0
+	},
+	gold : {
+		speed : 0.5,
+		acceleration : -0.25,
+		weight : 0.25,
+		handling : 0,
+		offroad : -0.5
+	},
+	growlster : {
+		speed : 0.5,
+		acceleration : -0.25,
+		weight : 0.25,
+		handling : -0.5,
+		offroad : 0
+	},
+	clown : {
+		speed : 0,
+		acceleration : -0.25,
+		weight : 0,
+		handling : 0.5,
+		offroad : -0.25
+	},
+	pipe : {
+		speed : -0.25,
+		acceleration : 0.25,
+		weight : -0.25,
+		handling : 0,
+		offroad : 0.25
+	},
+	ribbon : {
+		speed : -0.5,
+		acceleration : 0.5,
+		weight : -0.25,
+		handling : 0.5,
+		offroad : -0.25
+	},
+	soda : {
+		speed : 0.25,
+		acceleration : 0.25,
+		weight : -0.25,
+		handling : 0,
+		offroad : -0.25
+	},
+	tinytug : {
+		speed : -0.5,
+		acceleration : 0,
+		weight : 0.25,
+		handling : 0,
+		offroad : 0.25
+	},
+}
+
+wheel = {
+	standard : {
+		speed : 0,
+		acceleration : 0,
+		weight : 0,
+		handling : 0,
+		offroad : 0
+	},	
+	gold : {
+		speed : 1,
+		acceleration : -0.5,
+		weight : 0.5,
+		handling : -1.25,
+		offroad : -2.5
+	},
+	monster : {
+		speed : 0.75,
+		acceleration : -0.75,
+		weight : 1,
+		handling : -1.25,
+		offroad : 1.25
+	},
+	mushroom : {
+		speed : 0.25,
+		acceleration : -0.25,
+		weight : -0.5,
+		handling : 1.25,
+		offroad : -1.25
+	},
+	redmonster : {
+		speed : 0.75,
+		acceleration : -0.5,
+		weight : 0.75,
+		handling : -1.25,
+		offroad : 1.25
+	},
+	roller : {
+		speed : -0.75,
+		acceleration : 0.75,
+		weight : -1,
+		handling : 2,
+		offroad : -1.25
+	},
+	slick : {
+		speed : 1,
+		acceleration : -0.25,
+		weight : 0.25,
+		handling : -1.25,
+		offroad : -2.5
+	},
+	slim : {
+		speed : -0.25,
+		acceleration : 0.25,
+		weight : -0.25,
+		handling : 1.25,
+		offroad : -1.25
+	},
+	sponge : {
+		speed : -0.25,
+		acceleration : 0.5,
+		weight : -0.75,
+		handling : 0,
+		offroad : 0
+	},
+	wooden : {
+		speed : -0.5,
+		acceleration : 0.5,
+		weight : -0.5,
+		handling : 1.25,
+		offroad : 0
+	},
+}
+
+glider = {
+	standard : {
+		speed : 0,
+		acceleration : 0,
+		weight : 0,
+		handling : 0,
+		offroad : 0
+	},
+	lowweight : {
+		speed : 0,
+		acceleration : 0.25,
+		weight : -0.25,
+		handling : 0,
+		offroad : 0
+	},
+}
